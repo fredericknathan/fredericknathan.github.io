@@ -1,0 +1,626 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.navbar2 ul {
+    list-style: none;
+    background: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar2 li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 25px  20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.navbar {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-top: 5%;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    /* float: left; */
+    justify-content: center;
+
+}
+
+nav ul li a{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.home {
+    /* width: 1500px;
+    margin: auto;
+    position: relative; */
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.home h1 {
+    margin-top: -100px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.home h3 {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home h4 {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about{
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: right;
+}
+
+.about p{
+    font-size: 25px;
+}
+
+
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.part2{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: right;
+}
+
+.part3{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.part3 .text{
+    margin-left: 2%;
+}
+
+.part2 .text{
+    margin-right: 2%;
+}
+
+.title_left{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    font-size: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+    color: #EBEBEB;
+
+}
+
+.title_right{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EBEBEB;
+
+}
+
+.title_right1{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: 10%;
+    margin-right: 5%;
+    font-size: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EBEBEB;
+
+}
+
+.part .images {
+    margin-top: 20%;
+    display: flex;
+    margin-right: 2%;
+
+}
+
+.part3 .images {
+    display: flex;
+    margin-right: 2%;
+}
+
+.part3 .image1 {
+    width: 400px;
+}
+
+.part2 .images {
+    margin-left: 2%;
+    display: flex;
+}
+
+.part2 .small-text{
+    margin-left: 1%;
+}
+
+
+.part .text{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.text .small-text{
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.skills{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    margin-left: 20%;
+    margin-right: 10%;
+    
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    margin-bottom: 5%;
+}
+
+.skills h3 {
+    font-size: 30px;
+}
+
+.skills li {
+    margin-bottom: 2%;
+}
+
+.skills ul{
+    margin-bottom: 20%;
+}
+
+.contact{
+    margin-top: 15%;
+    column-count: 5;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+/* .brands{
+    margin-top: 150px;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.brand-list {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.brand-list img {
+    margin-right: 80px;
+    margin-left: 80px;
+} */
+
+
+/* section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+}
+
+.acoustic .deskripsi {
+    font-size: 40px;
+}
+
+.acoustic {
+    margin-left: 100px;
+}
+
+.electric {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.tulisan-electric {
+    margin-left: 100px;
+}
+
+.tulisan-acoustic {
+    margin-left: 50px;
+}
+
+.classical {
+    margin-left: 100px;
+}
+
+.tulisan-classical {
+    margin-left: 50px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#92B4EC;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.brand-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-brand {
+    width: 30%;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.kartu-brand:hover {
+    transform: scale(1.1);
+}
+
+.kartu-brand img {
+    width: 80%;
+}
+
+.kartu-brand p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #92B4EC;
+}
+
+.imginfo {
+    width: 100%;
+    text-align: center;
+} */
+
+.contact-us{
+    background: #dededede;
+    padding: 30px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+
+h3 {
+    font-size: 25px;
+    width: 100%;
+}
+
+.logo-social{
+    margin-top: 10px;
+}
+
+.footer2 {
+    text-align: right;
+    width: 30%;
+}
+
+.location {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.logo-social img {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        width: 80%;
+    }
+
+    .logo a {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .navbar {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .navbar ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    nav .navbar ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    .container {
+        display: block;
+        margin: 0px;
+    }
+
+    .container img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .card {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+    }
+
+    .brand-list {
+        display: block;
+    }
+
+    .kartu-brand img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+    /* .content {
+        width: 80%;
+    }
+
+    .logo a {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .navbar {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .navbar ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .navbar ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    .content {
+        display: block;
+        margin: 0px;
+    }
+
+    .content img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .kartu-brand {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+    }
+
+    .acoustic {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .electric {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .classical {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+    }
+
+    .tulisan-acoustic {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .tulisan-electric {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .tulisan-classical {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .promotion {
+        text-align: center;
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 11.5%;
+    }
+
+    /* .logo-social {
+        width: 20%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    } */
+}
