@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: roboto;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    text-align: left;
+  }
+
+  .update_list {
+    width: 30%;
+  }
+
+  .update_list li{
+    margin: 15px 0;
+  }
+
+  .papers_list {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  ul.list_contact li{
+    margin: 15px 0;
+  }
+
+  ul.list_contact{
+    margin: 100px 0;
+    list-style: none;
+  }
+  
+  h2 {
+    margin-top: 60px;
+  }
+
+  img.profile {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    width: 35%;
+  }
+  
+  nav {
+    margin: 40px 0 20px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: 20px 0;
+  }
+  
+  footer nav {
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 40%;
+    border: 0;
+    border-top: 1px solid ; /* Adjust thickness here */
+    margin: 0px auto 20px auto;
+  }
